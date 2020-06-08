@@ -116,7 +116,7 @@ button:hover{
 
 @font-face{
     font-family: 'Kremlin';
-    src: url('Kremlin.woff2') format('woff2'),
+    src: url('https://github.com/ayushkr7/RealMadridfans/Kremlin.woff2') format('woff2'),
         url('https://github.com/ayushkr7/RealMadridfans/blob/master/Kremlin.woff') format('woff');
     font-weight: normal;
     font-style: normal;
