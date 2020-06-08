@@ -11,7 +11,9 @@
             <div class="nav-logo">
                 <img src="https://i.ya-webdesign.com/images/real-madrid-crest-png-1.png" alt="Real Madrid Logo">
             </div>
-            <div class="nav-links">
+            
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
                <ul>
                    <a href="#"><li>Home</li></a>
                    
@@ -24,6 +26,7 @@
                  <button type="button" class="button">Sign Up</button>
                
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
     </div>
     <div class="banner">
         <h1>HOME OF <span>REAL MADRID</span> FANS</h1>
@@ -36,7 +39,26 @@
            <i class="fa fa-facebook" ></i>
            <i class="fa fa-snapchat" ></i>
         </div>
+        
     </div>
+    <div class="notifications">
+        <div class="contents">
+            <small>Suscribe Our YouTube Channel <img src="https://pluspng.com/img-png/png-pointing-finger-pointing-finger-png-image-43096-878.png" alt="right pointing image"></small>
+           
+        </div>
+        <div class="notification-img">
+            <a href="https://www.youtube.com/channel/UCWV3obpZVGgJ3j9FVhEjF2Q"><img src="C:/Users/Ayush Kumar/Desktop/Real Madrid fans Website/youtube suscribe.png" alt="Suscribe"></a>
+        </div>
+    </div>
+    <script>
+        var show = document.getElementById("nav-links")
+        function showMenu(){
+        show.style.right="0";
+        }
+        function closeMenu(){
+        show.style.right="-200";
+        }
+    </script>
 </div>
 </body>
 </html> 
